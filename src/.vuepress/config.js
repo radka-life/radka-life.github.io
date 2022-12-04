@@ -7,14 +7,14 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 export default {
   sourceDir: "src",
   dest: "docs/",
-  title: "loG",
-  description: "make a better world. so make a better loG.digiNORI",
+  title: "RADKA",
+  description: "TODO",
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'diginori loG' }],
-    ['meta', { property: 'og:description', content: 'so make a better loG.digiNORI' }],
-    ['meta', { property: 'og:image', content: 'https://user-images.githubusercontent.com/10396850/205328536-741b634a-c7e4-4721-b0be-79a4a396b2bc.png' }],
-    ['meta', { property: 'og:url', content: 'https://log.diginori.com' }],
+    ['meta', { property: 'og:description', content: 'TODO' }],
+    ['meta', { property: 'og:image', content: 'TODO' }],
+    ['meta', { property: 'og:url', content: 'https://radka.life' }],
   ],
 
   locales: {
@@ -22,13 +22,11 @@ export default {
     // As a special case, the default locale can use '/' as its path.
     '/en/': {
       lang: 'en-US',
-      // title: 'loG',
-      // description: 'make a better world. so make a better loG.digiNORI',
+      // title: 'TODO',
+      // description: 'TODO',
     },
     '/': {
       lang: 'ko-KR',
-      // title: '디지노리 로그',
-      // description: '더 나은 세상을 만들자. 이를 위해 더 나은 로그를 남겨가자. 디지노리.',
     },
   },
 
@@ -38,7 +36,7 @@ export default {
     }),
     backToTopPlugin(),
     googleAnalyticsPlugin({
-      id: "G-B5QYS2JYSW",
+      id: "G-TODO",
       debug: true,
     }),
   ],
@@ -84,11 +82,8 @@ export default {
 
     home: "/index.md",
 
-    logo: "/images/wood-mono.svg",
-    logoDark: "/images/wood-color.svg",
-
-    repo: "https://github.com/log-diginori/log-diginori.github.io/discussions",
-    repoLabel: "discussions",
+    logo: "/images/plum-logo-1.svg",
+    logoDark: "/images/plum-logo-2.svg",
 
     contributors: false,
 
@@ -102,7 +97,7 @@ export default {
     colorModeSwitch: true,
 
     navbar: [
-      { text: "tail -f loG", link: "/logs/" },
+      { text: "LIFE", link: "/logs/" },
       { text: "meplace", link: "/logs/travel/meplace.md" },
     ],
 
